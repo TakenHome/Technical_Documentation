@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav id="navbar">
+        <header>
+           <h1>The Vanguard Manual</h1>
+           <img src="https://static.kvraudio.com/i/b/vanguard.jpg" alt="picture of Vanguard synthesizer">
+           </header>
+           
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#OSC_-_The_Oscillators">OSC - The Oscillators</a></li>
+            <li><a class="nav-link" href="#LFO_-_The_Low_Frequency_Oscillators">LFO - The Low Frequency Oscillators</a></li>
+            <li><a class="nav-link" href="#FILTER_–_The_Multimode_Filter_Section">FILTER – The Multimode Filter Section</a></li>
+            <li><a class="nav-link" href="#AMP_–_The_Amplifier">AMP – The Amplifier</a></li>
+            <li><a class="nav-link" href="#TRANCEGATE_–_An_automated_and_synchronized_Gate">TRANCEGATE – An automated and synchronized Gate</a></li>
+            <li><a class="nav-link" href="#Delay_&_Reverb_Effects">Delay & Reverb Effects</a></li>
+            <li><a class="nav-link" href="#ARP_–_The_Arpeggiator">ARP – The Arpeggiator</a></li>
+        </ul>
+    </nav>
+    
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header>
+          <h1>Introduction</h1>  
+        </header>
+        <p>
+         <strong>VANGUARD</strong> is polyphonic analogue-modelled synthesizer with an
+          arpeggiator and an effect section. Many years ago, synthesizers were
+          built using analogue components for creating oscillators, envelopes
+          and filters. These synthesizers revolutionized the music instrument
+          market: it became possible to play synthesized sounds on a classic
+          piano keyboard.
+        </p>
+
+        <p>
+          Synthesizers also invented new electronic music styles and added new
+          elements to classic styles (e.g. rock music), but there were a few
+          problems with these machines: they didn't have enough voices, they had
+          tuning problems, they had no midi functionality, and they were
+          technically problematic.
+        </p>
+
+        <p>
+          <strong>VANGUARD</strong> is more than a simple synthesizer, included
+          are:
+        </p>
+        <ul>
+          <li>31 different oscillators</li>
+          <li>3 low frequency oscillators (LFOs)</li>
+          <li>
+            13 filter types and a variety of effects:
+            <ol>
+              <li>Trancegate</li>
+              <li>Delay</li>
+              <li>Reverb</li>
+              <li>Built-in arpeggiator</li>
+            </ol>
+          </li>
+        </ul>
+      </section>
+      <section id="OSC_-_The_Oscillators" class="main-section">
+        <header>
+          <h1>OSC - The Oscillators</h1>
+        </header>
+        <p>
+          As mentioned previously, VANGUARD has up to three oscillators per
+          voice. You'll find the oscillator section on the top left:
+        </p>
+        <code
+          >Each of the three oscillators has its own volume and semitone tuning knobs. “vol” controls the volume and “semi” sets the tuning in semitones: the “semi” setting has a range from -36 to +36 semitones (-/+3 octaves).</code
+        >
+      </section>
+      <section id="LFO_-_The_Low_Frequency_Oscillators" class="main-section">
+        <header>
+          <h1>LFO - The Low Frequency Oscillators</h1>
+        </header>
+        <p>
+          <strong>VANGUARD</strong> has three independent triangle oscillators.
+          Select the LFO you want by edit with the “1”, “2” or “3” switch.
+        </p>
+        <code
+          >Please note that the LFOs are hard wired to the corresponding oscillator: LFO 1 can only modulate the pitch and pulsewidth of the first oscillator, LFO 2 is for oscillator 2 and LFO 3 handles of course- oscillator 3. All three LFOs can modulate the cutoff frequency of the filter.
+        </code>
+        <ul>
+          <li>
+            <strong>SPEED:</strong> sets the speed of the LFO, which is a value
+            between 0 and 60 hertz.
+          </li>
+          <li>
+            <strong>DETUNE:</strong> modulates the pitch of the corresponding
+            oscillator. Negative values will slow down the pitch, positive will
+            speed them up.
+          </li>
+          <li>
+            <strong>PWM:</strong> is responsible for the pulsewidth. According
+            to the “detune” parameter, it affects the pulsewidth negative or
+            positive.
+          </li>
+          <li>
+            <strong>CUTOFF:</strong> modulates the cutoff frequency of the
+            filter.
+          </li>
+        </ul>
+      </section>
+      <section id="FILTER_–_The_Multimode_Filter_Section" class="main-section">
+        <header>
+          <h1>FILTER – The Multimode Filter Section</h1>
+        </header>
+        <p>
+          <strong>VANGUARD</strong> is equipped with 13 different filter-types,
+          including standard low-pass and high-pass variations and a selection
+          of several notch- and band-pass filters.
+        </p>
+        <code>
+            Select a filter-type, just click on the green type field and the list of filters will appear.
+        </code>
+      </section>
+      <section id="AMP_–_The_Amplifier" class="main-section">
+        <header>
+          <h1>AMP – The Amplifier</h1>
+        </header>
+        <p>
+          After the audio signal is synthesized, modulated and filtered, it ends
+          up in the amplifier section.
+        </p>
+        <p>
+          “Drive” adds high gain – the higher the drive, the more distorted the
+          signal will become. “drive” emulates a guitar-overdrive effect. The
+          output will be very aggressive and loud, but it will also lose its
+          brilliance, so better use it carefully!
+        </p>
+        <p>
+          Next to drive is the “volume” knob – please remember that the “master
+          volume” setting on the upper panel is scaled with the volume. Set both
+          volumes to 127 for the highest output possible.
+        </p>
+        <p>
+          “veltrk” is velocity tracking. Set “veltrk” to 0 if you don't want the
+          velocity to control the output volume – all notes will be played at
+          the same volume, independently of the velocity. Positive values will
+          make the amp louder the higher the velocity is – negative values will
+          make it more quiet the higher the velocity is.
+        </p>
+        <p>
+          “pan” sets the panorama position of the output signal. According to
+          the knob, it can be set smoothly from hard left to center and to hard
+          right.
+        </p>
+      </section>
+      <section
+        id="TRANCEGATE_–_An_automated_and_synchronized_Gate"
+        class="main-section">
+        <header>
+          <h1>TRANCEGATE – An automated and synchronized Gate</h1>
+        </header>
+        <p>
+          The trancegate offers an easy solution for creating typical trance
+          rhythmic sounds.
+        </p>
+        <p>
+          <strong>VANGUARD's</strong> trancegate is based on a 16-step on/off
+          pattern. Use your mouse to switch the 16 segments on or off.
+        </p>
+        <code>
+            <strong>VANGUARD's</strong> trancegate is fully stereo-enabled, so you can have different patterns for the left and right channel. Simply click on the stereo-button next to the on/off button to toggle between mono and stereo operation.
+        </code>
+      </section>
+      <section id="Delay_&_Reverb_Effects" class="main-section">
+        <header>
+          <h1>Delay & Reverb Effects</h1>
+        </header>
+        <p>
+          After the signal passes the amplifier and trancegate, delay and reverb
+          can be added. Both effect blocks are routed in series; the signal
+          flows first into the delay and then into the reverb.
+        </p>
+        <h3>Delay – Adding Echo</h3>
+        <p>
+          The delay emulates a classic band-echo, but is easier to control, and
+          of course without a tape.
+        </p>
+        <h3>Reverb – Room Simulation</h3>
+        <p>
+          The Reverb simulates reflections from surrounding walls or objects; it
+          is a room simulator. With reverb, your sounds will be more natural,
+          deeper and wider – but be careful: adding too much reverb or too big
+          of room sizes can result in a muddy signal.
+        </p>
+        <ul>
+          <li>
+            <strong>MIX:</strong> sets the output volume of the reverb – the
+            higher, the louder.
+          </li>
+          <li>
+            <strong>ROOM SIZE:</strong> defines the actual size of the room.
+          </li>
+          <li>
+            <strong>DAMP:</strong> dampens the signal; it cuts off higher
+            frequences and works like a low-pass filter. A value of 0 will not
+            change the delayed signal – the higher the value, the more high
+            frequencies will be cut off (same as “damp” in the delay section).
+          </li>
+          <li>
+            <strong>WIDTH:</strong> is responsible for the stereo width. If the
+            reverb is fed a mono input, the stereo input will automatically be
+            converted to mono. W the output of the reverb is stereo and the
+            “width” parameter will define more spatial rooms.
+          </li>
+        </ul>
+      </section>
+      <section id="ARP_–_The_Arpeggiator" class="main-section">
+        <header>
+          <h1>ARP – The Arpeggiator</h1>
+        </header>
+        <p>
+          What is it? Basically it takes the notes from a chord (or any other
+          combination of keys) and splits them into single notes to form
+          patterns. An arpeggiator gives you fresh inspiration: switch it on,
+          press some keys on your keyboard and listen to the melody.
+        </p>
+        <code>
+            The arpeggiator is –of course- tempo synchronized. Click on the “speed” field to set the tempo, which can be 1/1, ½, ¼, 1/8, 1/16, 1/32 or 1/64 note duration. Triolic and punctuated values are also possible: “T” is for triolic and “D” for punctuated note lengths.
+        </code>
+      </section>
+    </main>
+  </body>
+</html>
